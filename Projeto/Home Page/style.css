@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+/* ZERANDO AS PROPRIEDADES */
+body, main, aside, img, nav, ul, li, h1, h2, a, p{
+    margin: 0; padding: 0;
+    text-decoration: none;   /* tira o estilo padrão dos elementos */
+    box-sizing: border-box; /* controle maior dos elementos */
+    outline: none; /* borda que aparece nos inputs, quando clicavel */
+    list-style: none;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    background: linear-gradient(10deg, #000000, #24d9223d) #f1f1f1;
+    color: #f1f1f1;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap; /* vai forçar a quebrar a linha */
+    height: 100vh;
+}
+
+/* SIDE BAR */
+.sideBar{
+    width: 15%;
+    padding: 30px; /* ele da o espaçamento entre a borda do elemento para dentro da page */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    background: #1414144f;
+    margin: 20px;
+}
+
+.sideBar > img{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* .menuNavegação{}
+
+.homeUser{
+    
+} */
+
+.homeUser > li{
+    margin-bottom: 15px;
+}
+
+.homeUser > li > a{
+    color: #f1f1f1;
+    display: flex;
+    align-items: center;
+    font-size: 33px;
+    margin: 16px;
+}
+
+.homeUser > li > a > img{
+    width: 28px;
+    margin-right: 20px;
+}
+
+
+/* SEÇÃO TABELA */
+.tableSection{
+    width: 80%;
+    background: #1414144f;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 16px;
+    border-radius: 7px;
+}
+
+.cabecalho{
+    background-image: url(https://cdn2.civitatis.com/espana/barcelona/visita-guiada-camp-nou.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 368px;
+    position: relative;
+    padding: 20px 80px;
+    border-radius: 10px;
+}
+
+/* USER */
+.user{
+    display: flex;
+    align-items: center;
+    float: right;
+}
+
+.user > img{
+    margin-right: 20px;
+}
+
+.user > h2{
+    font-weight: lighter;
+    background: green;
+    padding: 7px;
+    border-radius: 10px;
+}
+/*  JOGOS */
+.jogos{
+    position: absolute;
+    left: 80px;
+    bottom: 20px;
+    background: green;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.jogos > p{
+    font-size: 28px;
+}
+.form{
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    text-indent: 60px;
+}
+
+input {
+    border: 0;
+    border-bottom: 2px solid #9e9e9e;
+    outline: none;
+    transition: .2s ease-in-out;
+    box-sizing: border-box;
+  }
+
+
+
+
+

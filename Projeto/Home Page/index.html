@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação para Web - 12 - 06</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <main>
+
+        <!-- SIDE BAR -->
+        <aside class="sideBar">
+            <!-- LOGO SIDE BAR -->
+            <img src="../img/Icone-Homem-Im.-04.png" alt="USUARIO">
+
+
+            <!-- MENU -->
+            <nav class="menuNavegação">
+
+                <!-- LISTA NÃO ORDENADA -->
+                <ul  class="homeUser">
+
+                    <li>
+                        <a href="#">
+                            <img src="../img/icone1.png" alt="iconeHome">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="">
+                            <img src="../img/icone3-hover.png" alt="iconeUser">
+                            Usuario
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+            
+        </aside>
+
+        <!-- SEÇÃO TABELA  -->
+        <section class="tableSection">
+            <header class="cabecalho">
+
+                <div class="user">
+                    <img src="../img/user.png" alt="Usuario">
+                    <h2> Matheus </h2>
+                </div>
+
+                <div class="jogos">
+                    <p>JOGOS</p>
+                </div>
+
+            </header>
+
+            
+
+            <section>
+                <table class="table mt-5 table-dark table-striped table-hover">
+                    <caption class="caption-top text-center h2" style="color: green;">Jogos Marcados</caption>
+                    <thead>
+        
+                        <tr>
+                            <th scope="col">Nome</th>
+                            <th scope="col">Dia</th>
+                            <th scope="col">Horário</th>
+                            <th scope="col">Quadra</th>
+                        </tr>
+        
+                    </thead>
+                    <tbody class="py-5">
+                        <tr>
+                            <td class="resultado"></td>
+                            <td class="resultadoQuadra"></td>
+                            <td class="resultadoHora"></td>
+                            <td class="resultadoCampo"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <form class="form" action="" method="get">
+                <p>Nome: <input type="text" class="nome"></p>
+                <p>Dia: <input type="text" class="dia"></p>
+                <p>Horario: <input type="text" class="hora"></p>
+                <p>Quadra: <input type="text" class="campo"></p>
+                <button class="btn btn-primary ms-3">Enviar</button>
+            </form>
+
+        </section>
+
+    
+
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
